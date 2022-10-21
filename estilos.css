@@ -1,0 +1,80 @@
+.card{
+    width: 400px;
+}
+#logo{
+    width: 150px;            
+}
+textarea{
+    resize: none;
+}
+#header-main{
+    background-image: url("Images/ba1.jpg");
+    height: 1000px;
+} 
+.w-710{
+    width: 710px !important;
+}
+.h-900{
+    height: 900px !important;
+}
+.h-320{
+    height: 320px !important;
+}
+.min-width{
+   min-width: 360px !important;
+   min-height: 316px !important;
+}
+.min-height{
+    min-height: 316px !important;
+}
+footer ul li{
+    width: 25%;
+}
+.w-10{
+    width: 10% !important;
+}
+.underline-dotted{
+    border: 0px;
+    border-bottom: 3px dotted;
+}   
+input[type="text"], label, input[type="reset"], input[type="submit"]{
+    width: 47%;
+}
+.bg-custom {
+    background: linear-gradient(to right,#033552 50%, #084568 100%);
+}
+.fs-1-5-em{
+    font-size: 1.5rem !important;
+}
+#compra div{
+    width: 250px;
+    height: 250px;
+    font-size: 1.2em;
+}
+
+@media (max-width: 1000px) 
+{
+    .media-w-380{
+        width: 380px !important;       
+    }
+    .media-w-400{
+        width: 400px !important;
+    }    
+    .media-h-500{
+        height: 500px !important;        
+    }
+    .media-d-block{
+        display: block !important;
+    }         
+    .media-fs-1-2-em{
+        font-size: 1.2em !important;
+    }
+    .media-fs-1-1-em{
+        font-size: 1.1em !important;
+    }
+    input[type="text"], label, input[type="select"], input[type="number"]{
+        display: block !important;
+        width: 100% !important;
+        margin: 5px;
+    }
+}
